@@ -35,15 +35,6 @@ class ATM{
 };
 int main(){
 	ATM TestAccount(10000);
-	cout << "Welcome to the Bank Al-Habib\n";
-	cout<<""<<endl;
-	string username;
-	int pass;
-	cout<<"Enter Username and Password"<<endl;
-	cin>>username;
-	cin>>pass;
-	if(username=="Rayyan"&&pass==1221){
-	
     cout << "Welcome to the Bank Al-Habib\n";
     cout << "1. Deposit\n";
     cout << "2. Withdraw\n";
@@ -82,10 +73,6 @@ int main(){
 		cout<<"Invalid Option"<<endl;
 		
 	 } 
-}
-}
-else{
-	cout<<"Incorrect Credentials"<<endl;
-}
+}}
 
-}
+
